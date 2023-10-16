@@ -20,7 +20,7 @@ public class ProcessoSetivo {
 
             System.out.println("O candidato " + candidato + " Solicitou este valor de salário " + salarioPretendido );
             if (salarioBase >= salarioPretendido ){
-                System.out.println("O candidato " + candidato + " foi selecionado para a vaga.");
+                System.out.println("O candidato " + candidato + " foi selecionado para a vaga!");
                 candidatosSelecionados++;
             }
             candidatoAtual++;
